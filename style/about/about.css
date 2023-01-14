@@ -1,0 +1,341 @@
+.about {
+   width: 100%;
+   height: 100%;
+   background-color: #ffffff;
+   padding: 100px 20px;
+}
+
+.content__about {
+   width: 100%;
+   height: 100%;
+   max-width: 1100px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+}
+
+.title__about {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.title__about>p {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 1.7999999523162842px;
+   color: #657085;
+}
+
+.title__about>h1 {
+   font-size: 39px;
+   font-weight: 400;
+   line-height: 40px;
+   letter-spacing: 0.800000011920929px;
+}
+
+.blue__about__detalies {
+   color: #0A61F7;
+}
+
+.section__about {
+   width: 100%;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 4fr 10fr;
+   gap: 30px;
+}
+
+.section__about .choose__about {
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+.choose__about .choose__btn {
+   padding: 15px 20px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 25px;
+   letter-spacing: 0em;
+   border: none;
+   border-radius: 8px;
+   border-bottom: 2px solid transparent;
+   transition: all 0.4s;
+   cursor: pointer;
+}
+
+.icon__choose_btn {
+   width: 30px;
+   height: 30px;
+}
+
+
+/*icons_btn*/
+
+.hr {
+   background: url("../../assets/img/about/chooseBtn/hr.png") no-repeat;
+   background-size: 100%;
+}
+
+.leave {
+   background: url("../../assets/img/about/chooseBtn/Leave.png") no-repeat;
+   background-size: 100%;
+}
+
+.time {
+   background: url("../../assets/img/about/chooseBtn/Time.png") no-repeat;
+   background-size: 100%;
+}
+
+.claims {
+   background: url("../../assets/img/about/chooseBtn/Claims.png") no-repeat;
+   background-size: 100%;
+}
+
+.payroll {
+   background: url("../../assets/img/about/chooseBtn/Payroll.png") no-repeat;
+   background-size: 100%;
+}
+
+.benefits {
+   background: url("../../assets/img/about/chooseBtn/Benefits.png") no-repeat;
+   background-size: 100%;
+}
+
+.mobile {
+   background: url("../../assets/img/about/chooseBtn/Mobile.png") no-repeat;
+   background-size: 100%;
+}
+
+/*icons_btn*/
+
+/*color_btn*/
+#choose_hr {
+   background: rgb(234, 243, 255);
+}
+
+#choose_hr:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(112, 174, 255);
+   box-shadow: 0px 0px 20px 10px rgb(234, 243, 255);
+}
+
+#choose_leave {
+   background: rgb(255, 248, 228);
+}
+
+#choose_leave:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(254, 219, 123);
+   box-shadow: 0px 0px 20px 10px rgb(255, 248, 228);
+}
+
+#choose_time {
+   background: rgb(255, 243, 239);
+}
+
+#choose_time:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(248, 159, 130);
+   box-shadow: 0px 0px 20px 10px rgb(255, 243, 239);
+}
+
+#choose_claims {
+   background: rgb(226, 251, 242);
+}
+
+#choose_claims:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(129, 255, 209);
+   box-shadow: 0px 0px 20px 10px rgb(226, 251, 242);
+}
+
+#choose_payroll {
+   background: rgb(241, 241, 252);
+}
+
+#choose_payroll:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(133, 133, 252);
+   box-shadow: 0px 0px 20px 10px rgb(241, 241, 252);
+}
+
+#choose_benefits {
+   background: rgb(243, 229, 245);
+}
+
+#choose_benefits:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(234, 128, 250);
+   box-shadow: 0px 0px 20px 10px rgb(243, 229, 245);
+}
+
+#choose_mobile {
+   background: rgb(255, 229, 237);
+}
+
+#choose_mobile:hover {
+   transition: all 0.4s;
+   border-bottom: 2px solid rgb(249, 126, 163);
+   box-shadow: 0px 0px 20px 10px rgb(255, 229, 237);
+}
+
+/*color_btn*/
+
+.section__about .ouptop__about {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+}
+
+.ouptop__about .image__ouptop__about {
+   width: 100%;
+   height: 400px;
+   background: url("./../../assets/img/about/ouptop/img.png") no-repeat;
+   background-size: 100%;
+}
+
+.description__ouptop__about {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   align-items: flex-start;
+}
+
+.description__ouptop__about > p {
+   font-family: Roboto;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 27px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #1C202B;
+}
+
+.blue__about__detalies {
+   color: #0A61F7;
+}
+
+.btn__ouptop__about {
+   padding: 15px 25px;
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: 1.4px;
+   line-height: 19.6px;
+   background: #0A61F7;
+   color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.4s;
+}
+
+.btn__ouptop__about:hover {
+   transition: all 0.4s;
+   box-shadow: 0px 0px 10px #0A61F7;
+}
+
+@media screen and (max-width: 900px) {
+   .section__about {
+      grid-template-columns: 1fr;
+      padding: 50px;
+   }
+
+   .title__about > h1 {
+      font-size: 30px;
+   }
+
+   .description__ouptop__about {
+      align-items: center;
+   }
+}
+
+@media screen and (max-width: 750px) {
+
+   .section__about {
+      align-items: center;
+      justify-content: center;
+   }
+
+   .title__about > h1 {
+      font-size: 25px;
+   }
+
+   .title__about > p {
+      font-size: 12px;
+   }
+
+   .ouptop__about .image__ouptop__about {
+      height: 300px;
+   }
+
+   .description__ouptop__about > p {
+      font-size: 18px;
+   }
+
+   .btn__ouptop__about {
+      padding: 10px 20px;
+      font-size: 10px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .title__about > h1 {
+      font-size: 20px;
+   }
+
+   .ouptop__about .image__ouptop__about {
+      height: 200px;
+   }
+
+   .description__ouptop__about > p {
+      font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .title__about > h1 {
+      font-size: 16px;
+   }
+
+   .title__about > p {
+      font-size: 12px;
+   }
+
+   .ouptop__about .image__ouptop__about {
+      height: 200px;
+   }
+
+   .description__ouptop__about > p {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .title__about > h1 {
+      font-size: 11px;
+      line-height: 30px;
+   }
+
+   .title__about > p {
+      font-size: 10px;
+   }
+
+   .ouptop__about .image__ouptop__about {
+      height: 100px;
+   }
+
+   .btn__ouptop__about {
+      padding: 5px 15px;
+      font-size: 7px;
+   }
+}
